@@ -1,17 +1,16 @@
 #include "picosystem.hpp"
-
 using namespace picosystem;
+#include "./assets/spritesheet.hpp"
 
-void init()
-{
+
+void init() {
+    use_spritesheet();
 }
 
-void update(uint32_t time_ms)
-{
+void update(uint32_t tick) {
 }
 
-void draw()
-{
+void draw(uint32_t tick) {
   pen(0, 0, 0);
   clear();
 
